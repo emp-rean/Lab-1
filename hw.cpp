@@ -3,8 +3,6 @@
 using std::endl;
 using std::cout;
 
-/// @brief ////
-/// @return 
 int main()
 {
 	cout << "float | +/- 3.4E-38 -- 3.4E+38 | 32 bits" << endl;

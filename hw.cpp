@@ -12,7 +12,7 @@ int main()
 	double d = 1.61231; 
 	cout << d << endl;
 	cout << "char | -128 -- 127, or 0 -- 255 | 8 bits" << endl;
-	char c = 'h'; 
+	char c = 'j'; 
 	cout << c << endl;
 	cout << "int | -32768 -- 32767 (if 2 bytes) or -2 147 483 648 -- 2 147 483 647 (if 4 bytes) | from 2 to 4 bytes" << endl;
 	int i = 54; 

@@ -5,10 +5,10 @@ using std::cout;
 
 int main()
 {
-	cout << "float | +/- 3.4E-38 -- 3.4E+38 | 32 bits" << endl;
+	cout << "float | 3.4 * 10 ^ -38 -- 3.4 * 10 ^ +38 | 6-7 | 32 bits" << endl;
 	float f = 1.6; 
 	cout << f << endl;
-	cout << "double | +/- 1.7E-308 -- 1.7E+308 | 64 bits" << endl;
+	cout << "double | 1.7 * 10 ^ -308 -- 1.7 * 10 ^ 308 | 15-16 | 64 bits" << endl;
 	double d = 1.61231; 
 	cout << d << endl;
 	cout << "char | -128 -- 127, or 0 -- 255 | 8 bits" << endl;
@@ -26,7 +26,7 @@ int main()
 	cout << "long long | -9 223 372 036 854 775 808 -- 9 223 372 036 854 775 807| 64 bits" << endl;
 	long long L = 543534756375; 
 	cout << L << endl;
-	cout << "bool | 2 | 1 bit " << endl;
+	cout << "bool | 2 | 1 byte " << endl;
 	bool b = {false};
 	cout << b << endl;	
 }
